@@ -12,7 +12,7 @@ const Header = () => {
         <h1>
           <a href="/">
             <img
-              src="/images/favicon.png"
+              src="/images/favicon-one.png"
               alt="Ahnaf Mottaki"
               width={40}
               height={40}
