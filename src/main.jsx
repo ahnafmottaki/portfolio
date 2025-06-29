@@ -2,6 +2,7 @@
 
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+import "lenis/dist/lenis.css";
 
 // * components
 import App from "./App.jsx";
