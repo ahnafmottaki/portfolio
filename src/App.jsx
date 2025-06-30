@@ -44,7 +44,7 @@ export default function App() {
         <About />
         <Skill />
         <Work />
-        <Review />
+        {/* <Review /> */}
         <Contact />
         <Footer />
       </main>

@@ -26,23 +26,23 @@ const sitemap = [
 const socials = [
   {
     label: "GitHub",
-    href: "https://www.github.com/codewithsadee-org",
+    href: "https://github.com/ahnafmottaki",
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/codewithsadee",
+    href: "https://www.linkedin.com/login",
   },
   {
     label: "Twitter X",
-    href: "https://x.com/codewithsadee_",
+    href: "https://x.com/ahnafmottaki22",
   },
   {
     label: "Instagram",
-    href: "https://www.instagram.com/codewithsadee",
+    href: "https://www.instagram.com/accounts/login/?hl=en",
   },
   {
     label: "CodePen",
-    href: "https://codepen.io/codewithsadee",
+    href: "https://codepen.io/your-work",
   },
 ];
 

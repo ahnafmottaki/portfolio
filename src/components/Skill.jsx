@@ -6,6 +6,7 @@ const skillItem = [
     label: "Figma",
     desc: "Design tool",
   },
+  { imgSrc: "/images/html.svg", label: "HTML", desc: "User Interface" },
   {
     imgSrc: "/images/css3.svg",
     label: "CSS",
@@ -40,6 +41,16 @@ const skillItem = [
     imgSrc: "/images/tailwindcss.svg",
     label: "TailwindCSS",
     desc: "User Interface",
+  },
+  {
+    imgSrc: "/images/react-router.svg",
+    label: "React Router",
+    desc: "Routing",
+  },
+  {
+    imgSrc: "/images/firebase-icon.svg",
+    label: "Firebase",
+    desc: "Authentication",
   },
 ];
 

@@ -38,13 +38,15 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="hidden lg:block">
-          <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden ">
+        <div className="hidden lg:block ">
+          {/* bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] */}
+          <figure className="w-full hero-image aspect-square rounded-4xl overflow-hidden max-w-[450px] ml-auto ">
             <img
-              src="images/favicon-one.png"
+              src="images/favouriteModified.jpg"
               width={656}
-              height={800}
-              className="w-full"
+              // height={800}
+              height={656}
+              className="w-full h-full object-cover "
               alt="Ahnaf Mottaki"
             />
           </figure>
