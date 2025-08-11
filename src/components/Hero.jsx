@@ -8,11 +8,12 @@ const Hero = () => {
           <div className="flex items-center gap-3">
             <figure className="img-box w-9 h-9 rounded-lg">
               <img
-                src="/images/favouriteModified.jpg"
+                src="/images/avatar.jpg"
                 alt="Ahnaf Mottaki portrait"
                 width={40}
                 height={40}
                 className="image-cover"
+                loading="lazy"
               />
             </figure>
 
@@ -39,15 +40,16 @@ const Hero = () => {
         </div>
 
         <div className="hidden lg:block ">
-          {/* bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] */}
-          <figure className="w-full hero-image aspect-square rounded-4xl overflow-hidden max-w-[450px] ml-auto ">
+          {/*to-65% via-25%*/}
+          <figure className="w-full hero-image aspect-square  overflow-hidden bg-gradient-to-t from-sky-400 via-25 via-sky-400/40 to-100%  rounded-[60px] max-w-[450px] ml-auto ">
             <img
-              src="images/favouriteModified.jpg"
+              src="images/mutt.png"
               width={656}
               // height={800}
               height={656}
               className="w-full h-full object-cover "
               alt="Ahnaf Mottaki"
+              loading="lazy"
             />
           </figure>
         </div>
