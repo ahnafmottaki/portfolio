@@ -18,7 +18,7 @@ const socialLinks = [
     alt: "GitHub",
   },
   {
-    href: "https://www.linkedin.com/login",
+    href: "https://www.linkedin.com/in/ahnafmottaki",
     icon: (
       <svg
         width="24"
@@ -54,7 +54,7 @@ const socialLinks = [
     alt: "Twitter X",
   },
   {
-    href: "https://www.instagram.com/accounts/login/?hl=en",
+    href: "https://www.instagram.com/ahnaf_mottaki?igsh=MWU0NmgwcWtsNGg1eg==",
     icon: (
       <svg
         width="25"

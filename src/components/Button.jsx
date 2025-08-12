@@ -1,6 +1,13 @@
 import PropTypes from "prop-types";
 
-const ButtonPrimary = ({ href, target = "_self", label, icon, classes }) => {
+const ButtonPrimary = ({
+  href,
+  target = "_self",
+  label,
+  icon,
+  classes,
+  download,
+}) => {
   if (href) {
     return (
       <a href={href} target={target} className={"btn btn-primary " + classes}>
@@ -33,6 +40,7 @@ ButtonPrimary.propTypes = {
   target: PropTypes.string,
   icon: PropTypes.string,
   classes: PropTypes.string,
+  download: PropTypes.string,
 };
 
 const ButtonOutline = ({ href, target = "_self", label, icon, classes }) => {

@@ -13,10 +13,10 @@ const sitemap = [
     label: "Work",
     href: "#work",
   },
-  {
-    label: "Reviews",
-    href: "#reviews",
-  },
+  // {
+  //   label: "Reviews",
+  //   href: "#reviews",
+  // },
   {
     label: "Contact me",
     href: "#contact",
@@ -30,7 +30,7 @@ const socials = [
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/login",
+    href: "https://www.linkedin.com/in/ahnafmottaki",
   },
   {
     label: "Twitter X",
@@ -38,12 +38,12 @@ const socials = [
   },
   {
     label: "Instagram",
-    href: "https://www.instagram.com/accounts/login/?hl=en",
+    href: "https://www.instagram.com/ahnaf_mottaki?igsh=MWU0NmgwcWtsNGg1eg==",
   },
-  {
-    label: "CodePen",
-    href: "https://codepen.io/your-work",
-  },
+  // {
+  //   label: "CodePen",
+  //   href: "https://codepen.io/your-work",
+  // },
 ];
 
 const Footer = () => {
@@ -110,7 +110,7 @@ const Footer = () => {
           </a>
 
           <p className="text-zinc-500 text-sm reveal-up">
-            &copy; 2025 <span className="text-zinc-200">codeWidthAhnaf</span>
+            &copy; 2025 <span className="text-zinc-200">codeWithAhnaf</span>
           </p>
         </div>
       </div>
