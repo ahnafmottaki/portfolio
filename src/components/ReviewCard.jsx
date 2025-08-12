@@ -32,7 +32,7 @@ const ReviewCard = ({ content, imgSrc, name, company }) => {
             alt={name}
             width={44}
             height={44}
-            className="img-cover"
+            className="image-cover"
             loading="lazy"
           />
         </figure>
