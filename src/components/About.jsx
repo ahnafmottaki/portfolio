@@ -37,7 +37,7 @@ const About = () => {
               </div>
             ))}
             <img
-              src="/images/favicon-one.png"
+              src="/images/AH-logo-flat.svg"
               alt="logo"
               width={30}
               height={30}

@@ -8,7 +8,7 @@ const Hero = () => {
           <div className="flex items-center gap-3">
             <figure className="img-box w-9 h-9 rounded-lg">
               <img
-                src="/images/avatar.jpg"
+                src="/images/profile-another-removebg-preview.png"
                 alt="Ahnaf Mottaki portrait"
                 width={40}
                 height={40}
@@ -49,7 +49,7 @@ const Hero = () => {
           {/*to-65% via-25%*/}
           <figure className="w-full hero-image aspect-square  overflow-hidden bg-gradient-to-t from-sky-400 via-25 via-sky-400/40 to-100%  rounded-[60px] max-w-[450px] ml-auto ">
             <img
-              src="images/mutt.png"
+              src="images/profile-removebg-preview.png"
               width={656}
               // height={800}
               height={656}
